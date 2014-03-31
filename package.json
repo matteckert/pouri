@@ -1,0 +1,23 @@
+{
+  "name": "pouri",
+  "version": "1.0.0",
+  "description": "Simple generic uri parsing via RFC 3986",
+  "main": "./lib/pouri.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "url",
+    "uri",
+    "rfc 3986"
+  ],
+  "author": "Matt Eckert <me@matteckert.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~3.2.0-beta1",
+    "mocha": "~1.18.2"
+  }
+}
